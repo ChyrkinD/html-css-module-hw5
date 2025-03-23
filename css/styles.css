@@ -204,7 +204,7 @@ img {
 .order-btn,
 .send-btn {
     display: block;
-    min-height: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
 }
