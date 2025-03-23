@@ -417,7 +417,7 @@ img {
 }
 
 .modal-title {
-    color: var(--primary-accent-color);
+    color: var(--pr-accent-cl);
     text-align: center;
 }
 
@@ -430,18 +430,18 @@ img {
     width: 264px;
     height: 40px;
     padding: 0 16px;
-    border: 1px solid var(--primary-white-color);
+    border: 1px solid var(--pr-white-cl);
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--primary-white-color);
+    color: var(--pr-white-cl);
 }
 
 .subscribe-input::placeholder {
-    color: var(--primary-white-color);
+    color: var(--pr-white-cl);
 }
 
 .subscribe-btn {
@@ -453,7 +453,7 @@ img {
 }
 
 .subscribe-icon {
-    fill: var(--primary-white-color);
+    fill: var(--pr-white-cl);
     margin-left: 16px;
 }
 
@@ -471,8 +471,8 @@ img {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    transition: opacity var(--primary-transition),
-        visibility var(--primary-transition);
+    transition: opacity var(--pr-transition),
+        visibility var(--pr-transition);
 }
 
 .modal-overlay.is-open {
@@ -493,7 +493,7 @@ img {
     padding: 72px 24px 24px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-    transition: transform var(--primary-transition);
+    transition: transform var(--pr-transition);
 }
 
 .close-btn {
@@ -502,7 +502,7 @@ img {
     right: 24px;
     height: 24px;
     width: 24px;
-    background-color: var(--border-color);
+    background-color: var(--border-cl);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
@@ -511,24 +511,24 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color var(--primary-transition),
-        border var(--primary-transition);
+    transition: background-color var(--pr-transition),
+        border var(--pr-transition);
 }
 
 .close-btn:hover,
 .close-btn:focus,
 .close-btn:active {
-    background-color: var(--hoover-text-color);
+    background-color: var(--hoov-text-cl);
     border: none;
 }
 
 .close-icon {
-    transition: fill var(--primary-transition);
+    transition: fill var(--pr-transition);
 }
 
 .close-btn:hover .close-icon,
 .close-btn:focus .close-icon {
-    fill: var(--primary-white-color);
+    fill: var(--pr-white-cl);
 }
 
 .input-group {
@@ -540,7 +540,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--secondary-border-color);
+    color: var(--sc-border-cl);
     display: block;
     margin-bottom: 4px;
 }
@@ -555,7 +555,7 @@ img {
     background-color: transparent;
     outline: none;
     border-radius: 4px;
-    transition: border-color var(--primary-transition);
+    transition: border-color var(--pr-transition);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -563,14 +563,14 @@ img {
 }
 
 .modal-form-field:focus-within {
-    border-color: var(--secondary-text-color);
+    border-color: var(--sc-text-cl);
 }
 
 .modal-input {
     height: 40px;
     padding-left: 38px;
     padding-right: 16px;
-    transition: border-color var(--primary-transition);
+    transition: border-color var(--pr-transition);
 }
 
 .modal-icon {
@@ -578,12 +578,12 @@ img {
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
-    fill: var(--primary-accent-color);
-    transition: fill var(--primary-transition);
+    fill: var(--pr-accent-cl);
+    transition: fill var(--pr-transition);
 }
 
 .modal-input:focus-within+.modal-icon {
-    fill: var(--secondary-text-color);
+    fill: var(--sc-text-cl);
 }
 
 .textarea-group {
@@ -621,8 +621,8 @@ img {
     height: 16px;
     border: 1px solid var(--modal-overlay-color);
     border-radius: 2px;
-    transition: background-color var(--primary-transition),
-        border var(--primary-transition), fill var(--primary-transition);
+    transition: background-color var(--pr-transition),
+        border var(--pr-transition), fill var(--pr-transition);
     margin-right: 4px;
     align-items: center;
     justify-content: center;
@@ -630,12 +630,12 @@ img {
 }
 
 .modal-checkbox:checked+.checkbox-label .checkmark {
-    background-color: var(--hoover-text-color);
+    background-color: var(--hoov-text-cl);
     border: none;
-    fill: var(--secondary-accent-color);
+    fill: var(--sc-accent-cl);
 }
 
 .policy-link {
-    color: var(--secondary-text-color);
+    color: var(--sc-text-cl);
     text-decoration: underline;
 }
